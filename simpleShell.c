@@ -119,4 +119,6 @@ int launch_shell(char** args){
 }
 int execute_command(char** args){
     return launch_shell(args);
+
 }
+int returnOne(){ return 1;}
